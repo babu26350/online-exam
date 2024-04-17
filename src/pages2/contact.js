@@ -32,7 +32,7 @@ export const Contact = ()=>{
       </div>
 
       <Outlet />
-        <div style={{textAlign:"center",height:"100%,width:100%;"}} className="header"> 
+        <div style={{textAlign:"center",height:"100%",width:"100%"}} className="header"> 
         <h3>WELCOME</h3>
         
         <p>E-MAIL US-bj167745@gmail.com </p>
