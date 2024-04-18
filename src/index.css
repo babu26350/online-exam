@@ -297,3 +297,16 @@ border: .5px solid rgb(229, 227, 227);
 .bottom{
   margin-bottom: 40px;
 }
+@media only screen and (max-width:720px){
+.asidemain{box-sizing:border-box;justify-content:center;padding:0}
+.asidemain,.quizbox{min-width:355px;width:100%}
+.nav{min-width:355px}
+.questions{margin-left:10%}
+  .question{padding:0 2px;width:320px}
+  .buttonstyle{margin-left:10%}
+  .mainquizList{display:none;min-width:355px;width:100%}}
+@media only screen and (max-width:921px){
+  .asidemain{flex-direction:column;justify-content:center;width:100%}l
+  i{min-width:110px}
+  .quizbox{margin-right:auto}
+  .mainquizList,.quizbox{max-width:920px;width:100%}}
