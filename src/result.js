@@ -25,6 +25,7 @@ return(<>
        <th>option2</th>
        <th>option3</th>
        <th>option4</th>
+    <th>correctAnswerId</th>
        <th>selectedOp</th>
        <th>answerStatus</th>   
         </tr>
@@ -39,6 +40,7 @@ return(<>
     <td>{props.res[i].op2}</td>
     <td>{props.res[i].op3}</td>
     <td>{props.res[i].op4}</td>
+    <td>{props.res[i].correctAnswerId}</td>
     <td>{props.res[i].selectedOp}</td>
     <td>{props.res[i].answerStatus}</td>
      </tr>)}
